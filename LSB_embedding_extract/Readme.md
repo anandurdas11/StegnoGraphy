@@ -6,7 +6,7 @@ Question
 
 ```
 %Encoding the message
-original=imread('pngtree.jpg');
+original=imread('test.jpg');
 cover=rgb2gray(original);
 [row,column]=size(cover);
 L=256;
